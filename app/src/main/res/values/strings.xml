@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">face</string>
+
+    <string-array name="selectview_titles">
+        <item >Worse</item>
+        <item >General</item>
+        <item >Great</item>
+    </string-array>
+</resources>

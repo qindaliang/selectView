@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="SelectView">
+        <attr name="titles" format="reference"/>
+        <attr name="title_selectview_space" format="reference|dimension"/>
+        <attr name="selectview_indicator_space" format="reference|dimension"/>
+        <attr name="indicator_width" format="reference|dimension"/>
+        <attr name="indicator_height" format="reference|dimension"/>
+        <attr name="title_size" format="reference|dimension"/>
+        <attr name="title_color" format="reference|color"/>
+        <attr name="title_style" format="reference"/>
+        <attr name="title_stroke" format="reference|dimension"/>
+        <attr name="selectview_height" format="reference|dimension"/>
+        <attr name="veticalline_width" format="dimension"/>
+        <attr name="veticalline_color" format="reference|color"/>
+        <attr name="isdrag" format="boolean"/>
+        <attr name="isclickabled" format="boolean"/>
+    </declare-styleable>
+
+</resources>
